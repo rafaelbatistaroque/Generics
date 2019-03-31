@@ -9,7 +9,7 @@ namespace CursoTreinaWeb
     class ClsGeneric<T>
     {
         private List<T> lista;
-
+        //Construtor: Inicializa o tipo especificado.
         public ClsGeneric()
         {
             lista = new List<T>();
